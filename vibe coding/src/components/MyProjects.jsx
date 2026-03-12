@@ -23,7 +23,7 @@ const projects = [
 
 const MyProjects = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-blue-50 to-indigo-50 p-10">
+    <div className="min-h-screen bg-linear-to-b from-blue-50 to-indigo-50 p-10">
 
       {/* Header */}
       <div className="flex justify-between items-center mb-10">

@@ -5,7 +5,7 @@ const Navbar = ({ togglePlans, toggleProjects }) => {
   const user = { name: "Harsh Patel" };
 
   return (
-    <nav className="w-full backdrop-blur-lg bg-gradient-to-r 
+    <nav className="w-full backdrop-blur-lg bg-linear-to-r 
                     from-blue-100 via-indigo-100 to-purple-100
                     px-10 py-3 flex items-center justify-between">
 

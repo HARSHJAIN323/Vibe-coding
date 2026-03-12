@@ -36,13 +36,13 @@ const plans = [
 
 const Plans = () => {
   return (
-    <div className="py-16 px-8 bg-gradient-to-b from-blue-50 to-indigo-50">
+    <div className="py-16 px-8  from-blue-50 to-indigo-50">
 
       <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">
         Vibe Coding Plans
       </h2>
 
-      <div className="grid md:grid-cols-4 gap-8">
+      <div className="grid md:grid-cols-3 gap-8">
 
         {plans.map((plan, index) => (
           <div
